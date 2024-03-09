@@ -1,0 +1,21 @@
+
+
+already existing directory 
+create a folder in system and then run the below command 
+git init ---> (initilazing the git repo)
+git branch -M main  -->  (we are saying it as Main Branch insted of Master Branch)
+git status
+git log
+git add. ; git commit -m "git learning" ; 
+we need to commit before pushing to central repository
+
+git add . ; git commit -m "git learning" ; 
+
+
+git init
+git branch -M main
+
+git remote add origin url_from_git_repor
+git push -u origin main
+
+
