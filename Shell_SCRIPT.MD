@@ -219,6 +219,78 @@ else
 fi ## fi means reverse of if, 
 
 yum install mysql -y
+
+##below validation script###
+if [ $? -ne 0 ]
+then
+   echo "ERROR: installing mysql is failed"
+   exit 1
+else
+   echo "Installing Mysql is success"
+fi
+
+yum install git -y 
+
+if [ $? -ne 0 ]
+then
+   echo "ERROR: installing git is failed"
+   exit 1
+else
+   echo "Installing git  is success"
+fi
+
+
+------------
+one task some ppl write 30 lines of code 
+other  ppl will write in 10 lines of code
+
+less lines of code is preffered doing the same 
+
+Functions: repeted code will be kept in function: and call it when ever we want 
+
+keep the repeted code in function and cal it when required.
+syntax:
+
+FUNCTION_NAME() {
+         statement to run
+}
+
+-----
+VALIDATE (){
+    statements to run 
+}
+
+======
+
+functions.sh
+
+-----------
+
+#!/bin/bash
+
+ID=$(id -u)
+VALIDATE (){
+if [ $? -ne 0 ]
+then
+   echo "ERROR: installing  is failed"
+   exit 1
+else
+   echo "Installing is success"
+fi
+}
+if [ $ID -ne 0 ]
+then
+   echo "ERROR: please run this script with root access"
+   exit 1 # you can give other than 0
+else
+  echo "you are root user"
+fi ## fi means reverse of if, 
+
+yum install mysql -y
+VALIDATE
+yum install git -y
+VALIDATE
+
 ------------
 
 
