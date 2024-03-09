@@ -33,5 +33,22 @@ echo "$PERSON2: Hi $PERSON1, very Good Morning"
 echo "$PERSON1: How are you $PERSON2?"
 echo "$PERSON2: I am good $PERSON1, How are you"
 ------------
+Change in a single location  will effect  automatically .
+we can rerodicate simple errors by using variables.
+changes should not  affect
 
 ---
+date command 
+
+question: how do u run commands in shell scriot and take output?
+$()
+$(command)
+$(date)
+
+#!/bin/bash
+
+DATE=$(date)
+echo "date and time is $DATE"
+or we can give it in flower braces
+echo "date and time is: ${DATE}"
+
