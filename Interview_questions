@@ -1,19 +1,31 @@
 Devops interview one of the person.
 interview persons also dont have full knowledge 
 we can easly crack it, no need to worry , 
+Theoreticall knowdgle,
+branching strategies ??
+terraform commands wat u use?
+how many Environemnts?
+
 15-20 interviews attend
 how many environments ?
 we can clearly clear the interview
-whats is docker 
-what is terraform
+whats is docker, docker commands  
+what is terraform, 
 confidence is the key , for any interview
-k8 upgrade?
-CMD vs entry point ?
+k8 upgrade? k8 admin will take care of k8 upgrade.
+anti affinity vs affinity ?
+CMD vs entry point difference ?
 k8 arcitrce?
+cordan and unkordan in k8?
+taint vs tolaration?
+ansible playbook for nginx? 
+terrafom 
 ansible syntax for a playbook
 terraform module ?
-jenkins shared library?
-terraform we we store data , we  store in ssm parameters.
+jenkins shared library write in interview?
+terraform lo security store where will you do ????  we  store security by using "ssm parameters".
+
+state file where do you store???   we place content in S3 bucket but not in github.
 voice lo full confidence and imagination then can do anything.
 
 IT lo  only few mem know completely, rest know only few 
@@ -27,5 +39,9 @@ pod , we can describe
 
 10% ppl know what they are doing , remaining  antha just  do day work thats it.
 we are able to learn and work
+
+if talking as a requesting with HR then they feel not genuine 
+
+aws services we need to focus.
 
 
