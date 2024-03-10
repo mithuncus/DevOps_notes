@@ -52,12 +52,14 @@ Important Question: for cost optimization?
 aws lo we have any option  "aws compute optimizer " or cost optimizer.
 
 we need to enable "aws compute optimizer " , so ec2 open , elastic IP uddress kinda "under provision"  or "over provisined", if we monitor "one week" monitor then we will get suggestion saying under provision or over provisioned.
-so we get 3 options , aws will give options by suggesting required plan. based on the suggestion recommendations  we can reduce the cost of application  based on this we saved 1000 of dollers.
+-->so we get 3 options , aws will give options by suggesting required plan. based on the suggestion recommendations  we can reduce the cost of application  based on this we saved 1000 of dollers.
 
-if we remove "public IP" usage when not required we can reduce, its also a security implementation  and also cost cutting implemented.
-Unnecessary  volumes untai, we create instace and deletes , in volumes unattached volumes , we can check with stackholder and  we remove unwantted it also save cost. 
+-->if we remove "public IP" usage when not required we can reduce, its also a security implementation  and also cost cutting implemented.
+-->Unnecessary  volumes untai, we create instace and deletes , in volumes unattached volumes , we can check with stackholder and  we remove unwantted it also save cost. 
 
-for DB instance -->dont go for G-series 
+-->for DB instance -->dont go for G-series  we can use for stateless applications 
+->implement auto scaling, 
+
 
 ----------------------------
 
