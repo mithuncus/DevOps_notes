@@ -29,3 +29,13 @@ we will have play level and task level.
   hosts: localhost
   task  
 
+
+Command for executing playbook 
+ansible-playbook -i inventory.ini -e ansible_username=centos -e ansible_password= xxxxxxxx321 03-multi-play.yml
+here inventory.ini is a inventoryfile .
+username is centos image username
+password login password for that image
+
+03-multi-play.yaml is a playbook which we want to execute.
+
+
