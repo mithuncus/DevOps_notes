@@ -1,0 +1,33 @@
+K8 will be written in yaml
+ below first 3 are common for any resouce creation in k8.
+==================
+apiversion
+kind:  #whatkind of resource you are creating 
+metadat:
+ name: 
+================
+namspace.yaml
+------
+apiversion: v1
+kind: namespace
+metadata:
+  name: roboshop
+
+---
+basic from init to pushing to central repo.
+git init
+git branch -M main
+git remote add origin <url from github repo>
+git add . ; git commint -m "k8_namespace" ; git push origin main
+
+on the remote server we need to run the below 
+git clone <URL of the repo>
+git pull
+
+kubectl create -f <yourresource.yml> # if you use this create once again , i mean second time we will get error.
+kubectl create -f Namespace.yaml
+kubectl get namespace
+kubectl  delete -f namespace.yaml # for deleteing 
+kubectl apply -f namespace.yaml # if we use n number of time it wont throw error.
+
+
